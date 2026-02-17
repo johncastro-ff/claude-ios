@@ -1,0 +1,57 @@
+.service-area-header {
+  margin-bottom: 48px;
+}
+
+.area-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.area-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 100px;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  transition: all 0.2s ease;
+}
+
+.area-tag:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.area-cta {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+}
+
+.area-cta-text {
+  flex: 1;
+  font-size: 1.0625rem;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .area-cta {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .area-cta .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
