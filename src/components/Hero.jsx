@@ -1,4 +1,4 @@
-import { Phone, ArrowRight } from 'lucide-react'
+import { CalendarCheck, ArrowRight } from 'lucide-react'
 import './Hero.css'
 
 function Hero() {
@@ -8,42 +8,42 @@ function Hero() {
       <div className="container hero-inner">
         <div className="hero-content">
           <div className="hero-badge">
-            Stillwater&apos;s Trusted HVAC Experts
+            Meta Ads Agency for Advanced Aesthetic Med Spas
           </div>
           <h1 className="hero-title">
-            Keep Your Home
-            <span className="hero-highlight"> Comfortable</span>
-            <br />Year-Round
+            Fill Your Treatment Calendar
+            <span className="hero-highlight"> With High-Ticket </span>
+            <br />Patients
           </h1>
           <p className="hero-description">
-            From sweltering Oklahoma summers to freezing winters, OKIE HVAC
-            delivers reliable heating and cooling solutions for homes and
-            businesses in Stillwater and the surrounding area.
+            We engineer Meta ad campaigns that turn your advanced aesthetic
+            equipment into a patient-generating machine. Morpheus8, CoolSculpting,
+            laser treatments — we know how to sell high-ticket procedures.
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn btn-primary">
-              <Phone size={18} />
-              Get a Free Estimate
+              <CalendarCheck size={18} />
+              Book Your Strategy Session
             </a>
             <a href="#services" className="btn btn-outline">
-              Our Services
+              See How It Works
               <ArrowRight size={18} />
             </a>
           </div>
           <div className="hero-stats">
             <div className="hero-stat">
-              <span className="hero-stat-number">24/7</span>
-              <span className="hero-stat-label">Emergency Service</span>
+              <span className="hero-stat-number">4.2x</span>
+              <span className="hero-stat-label">Average ROAS</span>
             </div>
             <div className="hero-stat-divider" />
             <div className="hero-stat">
-              <span className="hero-stat-number">100%</span>
-              <span className="hero-stat-label">Satisfaction Guaranteed</span>
+              <span className="hero-stat-number">$30–$80</span>
+              <span className="hero-stat-label">Cost Per Consultation</span>
             </div>
             <div className="hero-stat-divider" />
             <div className="hero-stat">
-              <span className="hero-stat-number">Licensed</span>
-              <span className="hero-stat-label">& Insured</span>
+              <span className="hero-stat-number">90 Days</span>
+              <span className="hero-stat-label">To Measurable Results</span>
             </div>
           </div>
         </div>

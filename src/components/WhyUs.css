@@ -19,7 +19,7 @@
 }
 
 .why-us-card:hover {
-  border-color: rgba(249, 115, 22, 0.3);
+  border-color: rgba(242, 169, 0, 0.3);
 }
 
 .why-us-icon {
@@ -30,8 +30,8 @@
   width: 48px;
   height: 48px;
   border-radius: 10px;
-  background: var(--color-blue-glow);
-  color: var(--color-blue);
+  background: var(--color-violet-glow);
+  color: var(--color-violet);
 }
 
 .why-us-title {

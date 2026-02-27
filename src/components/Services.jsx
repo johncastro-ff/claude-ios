@@ -1,49 +1,49 @@
 import {
-  Snowflake,
-  Flame,
-  Wrench,
-  Wind,
-  ShieldCheck,
-  Thermometer,
+  Target,
+  Palette,
+  BarChart3,
+  Megaphone,
+  RefreshCw,
+  FileText,
 } from 'lucide-react'
 import './Services.css'
 
 const services = [
   {
-    icon: Snowflake,
-    title: 'AC Repair & Installation',
+    icon: Target,
+    title: 'Meta Ad Campaigns',
     description:
-      'Beat the Oklahoma heat with expert air conditioning repair, replacement, and new system installation.',
+      'Full-funnel Facebook & Instagram campaigns built specifically for high-ticket aesthetic treatments. From awareness to booked consultation.',
   },
   {
-    icon: Flame,
-    title: 'Heating & Furnace',
+    icon: Palette,
+    title: 'Ad Creative & Copy',
     description:
-      'Stay warm through frigid winters with furnace repair, heat pump service, and heating system installation.',
+      'Scroll-stopping visuals and direct-response copy that positions your treatments as premium — and drives patients to book.',
   },
   {
-    icon: Wrench,
-    title: 'Preventive Maintenance',
+    icon: BarChart3,
+    title: 'Campaign Optimization',
     description:
-      'Extend the life of your HVAC system and avoid costly breakdowns with scheduled tune-ups and inspections.',
+      'Continuous A/B testing, audience refinement, and budget reallocation to maximize your ROAS and minimize cost per consultation.',
   },
   {
-    icon: Wind,
-    title: 'Indoor Air Quality',
+    icon: Megaphone,
+    title: 'Retargeting Funnels',
     description:
-      'Breathe easier with air purification, duct cleaning, humidity control, and ventilation solutions.',
+      'Multi-touchpoint retargeting sequences that nurture warm audiences with testimonials, education, and offers until they book.',
   },
   {
-    icon: ShieldCheck,
-    title: 'Emergency Repairs',
+    icon: RefreshCw,
+    title: 'Monthly Creative Refresh',
     description:
-      'HVAC emergency? Our technicians are available 24/7 to restore comfort to your home fast.',
+      'Fresh ad creatives every month to combat fatigue. Seasonal campaigns, new treatment spotlights, and trending formats.',
   },
   {
-    icon: Thermometer,
-    title: 'Thermostat & Controls',
+    icon: FileText,
+    title: 'Reporting & Strategy',
     description:
-      'Upgrade to smart thermostats and modern controls for better comfort and lower energy bills.',
+      'Transparent dashboards tracking spend, leads, cost per consultation, and ROAS. Plus strategic recommendations every month.',
   },
 ]
 
@@ -53,10 +53,10 @@ function Services() {
       <div className="container">
         <div className="services-header">
           <p className="section-label">What We Do</p>
-          <h2 className="section-title">Our HVAC Services</h2>
+          <h2 className="section-title">Your Full-Service Ad Engine</h2>
           <p className="section-subtitle">
-            Comprehensive heating, cooling, and air quality solutions for
-            residential and commercial properties in Stillwater.
+            Everything your med spa needs to turn Meta ads into a predictable
+            stream of high-ticket patient consultations.
           </p>
         </div>
 

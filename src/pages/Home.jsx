@@ -3,6 +3,7 @@ import Services from '../components/Services'
 import WhyUs from '../components/WhyUs'
 import Testimonials from '../components/Testimonials'
 import ServiceArea from '../components/ServiceArea'
+import Pricing from '../components/Pricing'
 import Contact from '../components/Contact'
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
       <WhyUs />
       <Testimonials />
       <ServiceArea />
+      <Pricing />
       <Contact />
     </>
   )

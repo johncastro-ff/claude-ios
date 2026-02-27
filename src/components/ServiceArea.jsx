@@ -1,45 +1,51 @@
-import { MapPin } from 'lucide-react'
+import { Scan } from 'lucide-react'
 import './ServiceArea.css'
 
-const areas = [
-  'Stillwater',
-  'Perkins',
-  'Glencoe',
-  'Ripley',
-  'Yale',
-  'Cushing',
-  'Perry',
-  'Morrison',
+const treatments = [
+  'Morpheus8',
+  'CoolSculpting Elite',
+  'Stellar M22 / IPL',
+  'Sciton BBL / MOXI',
+  'Sofwave',
+  'EmSculpt NEO',
+  'Potenza RF',
+  'HydraFacial',
+  'Botox & Fillers',
+  'Laser Resurfacing',
+  'Chemical Peels',
+  'PRP Therapy',
 ]
 
 function ServiceArea() {
   return (
-    <section id="service-area" className="service-area section">
+    <section id="treatments" className="service-area section">
       <div className="container">
         <div className="service-area-header">
-          <p className="section-label">Service Area</p>
-          <h2 className="section-title">Proudly Serving Stillwater & Beyond</h2>
+          <p className="section-label">Treatments We Advertise</p>
+          <h2 className="section-title">We Speak Your Language</h2>
           <p className="section-subtitle">
-            Based in Stillwater, OK, we provide HVAC services to homes and
-            businesses throughout Payne County and surrounding communities.
+            We specialize in advertising high-ticket aesthetic treatments.
+            We understand the equipment, the patient journey, and how to
+            position each procedure for maximum conversions.
           </p>
         </div>
 
         <div className="area-tags">
-          {areas.map((area) => (
-            <div key={area} className="area-tag">
-              <MapPin size={16} />
-              {area}
+          {treatments.map((treatment) => (
+            <div key={treatment} className="area-tag">
+              <Scan size={16} />
+              {treatment}
             </div>
           ))}
         </div>
 
         <div className="area-cta">
           <p className="area-cta-text">
-            Don&apos;t see your area? Give us a call — we may still be able to help!
+            Don&apos;t see your treatment? We can build campaigns for any
+            advanced aesthetic procedure. Let&apos;s talk.
           </p>
-          <a href="tel:+14055551234" className="btn btn-outline">
-            Call (405) 555-1234
+          <a href="#contact" className="btn btn-outline">
+            Book a Strategy Call
           </a>
         </div>
       </div>

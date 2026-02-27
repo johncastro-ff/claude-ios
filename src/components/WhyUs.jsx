@@ -1,30 +1,30 @@
-import { Clock, Award, DollarSign, Users } from 'lucide-react'
+import { Sparkles, ShieldCheck, Zap, TrendingUp } from 'lucide-react'
 import './WhyUs.css'
 
 const reasons = [
   {
-    icon: Clock,
-    title: '24/7 Availability',
+    icon: Sparkles,
+    title: 'Med Spa Specialists',
     description:
-      'HVAC emergencies don\'t wait for business hours. Neither do we. Call us anytime, day or night.',
+      'We only work with aesthetic med spas. Every campaign we build is informed by deep knowledge of treatments, patient psychology, and industry compliance.',
   },
   {
-    icon: Award,
-    title: 'Licensed Professionals',
+    icon: Zap,
+    title: 'AI-Powered Creative',
     description:
-      'Our technicians are fully licensed, insured, and trained on the latest HVAC systems and techniques.',
+      'We use AI tools to research competitors, generate ad variations, and optimize creative at a speed and scale traditional agencies can\'t match.',
   },
   {
-    icon: DollarSign,
-    title: 'Transparent Pricing',
+    icon: ShieldCheck,
+    title: 'Compliance-First',
     description:
-      'No hidden fees or surprise charges. We provide upfront quotes before any work begins.',
+      'Meta health & beauty policies, HIPAA, FTC guidelines — we build every campaign with compliance baked in so your ads stay live.',
   },
   {
-    icon: Users,
-    title: 'Local & Family-Owned',
+    icon: TrendingUp,
+    title: 'ROI Obsessed',
     description:
-      'We\'re your Stillwater neighbors. We treat every home like our own and every customer like family.',
+      'We don\'t chase vanity metrics. Every dollar is tracked from ad impression to booked consultation to treatment revenue. Your ROAS is our scorecard.',
   },
 ]
 
@@ -33,11 +33,11 @@ function WhyUs() {
     <section id="why-us" className="why-us section">
       <div className="container">
         <div className="why-us-header">
-          <p className="section-label">Why Choose Us</p>
-          <h2 className="section-title">The OKIE HVAC Difference</h2>
+          <p className="section-label">Why Dandelion</p>
+          <h2 className="section-title">The Dandelion Difference</h2>
           <p className="section-subtitle">
-            We combine expert craftsmanship with honest service to earn your
-            trust and keep your home comfortable.
+            We combine med spa expertise with AI-powered execution to deliver
+            results that generic marketing agencies simply cannot.
           </p>
         </div>
 

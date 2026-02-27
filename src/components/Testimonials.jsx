@@ -3,35 +3,35 @@ import './Testimonials.css'
 
 const testimonials = [
   {
-    name: 'Sarah M.',
-    location: 'Stillwater, OK',
-    text: 'Our AC went out in the middle of July and OKIE HVAC had a tech at our house within the hour. Professional, fast, and fair pricing. Highly recommend!',
+    name: 'Dr. Rachel M.',
+    location: 'Aesthetic Med Spa, Scottsdale AZ',
+    text: 'Dandelion filled our Morpheus8 calendar within 6 weeks. We went from 3 treatments a week to fully booked. The ad creative is stunning and the patients who come in are pre-sold on the treatment.',
     rating: 5,
   },
   {
-    name: 'James T.',
-    location: 'Stillwater, OK',
-    text: 'We\'ve used OKIE HVAC for both our home and business. They installed a new furnace last winter and the whole process was seamless. Great communication throughout.',
+    name: 'Jessica L.',
+    location: 'Luxe Skin Studio, Austin TX',
+    text: 'We spent $12K with a "full-service" agency and got nothing. Dandelion generated 47 consultation bookings in our first month for half the ad spend. They actually understand how to sell aesthetic treatments.',
     rating: 5,
   },
   {
-    name: 'Linda K.',
-    location: 'Perkins, OK',
-    text: 'Honest and reliable. They diagnosed a problem that another company wanted to charge us thousands for, and fixed it at a fraction of the cost. Our go-to HVAC team.',
+    name: 'Dr. Anthony K.',
+    location: 'Advanced Dermatology & Aesthetics, Miami FL',
+    text: 'The ROI reporting alone is worth the fee. I can see exactly what every ad dollar generates. Our CoolSculpting revenue is up 3x since we started with Dandelion. Best investment we\'ve made.',
     rating: 5,
   },
 ]
 
 function Testimonials() {
   return (
-    <section id="testimonials" className="testimonials section">
+    <section id="results" className="testimonials section">
       <div className="container">
         <div className="testimonials-header">
-          <p className="section-label">Testimonials</p>
-          <h2 className="section-title">What Our Customers Say</h2>
+          <p className="section-label">Client Results</p>
+          <h2 className="section-title">What Our Clients Say</h2>
           <p className="section-subtitle">
-            Don&apos;t just take our word for it — hear from homeowners and
-            businesses across the Stillwater area.
+            Don&apos;t just take our word for it — hear from med spa owners who
+            transformed their patient pipeline with Dandelion.
           </p>
         </div>
 
